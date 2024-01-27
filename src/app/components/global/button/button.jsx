@@ -7,7 +7,7 @@ const Button = ({ children, href }) => {
          className="bg-primary flex items-center gap-1 px-6 py-3 rounded-md text-white"
          href={href}>
          {children}
-         <FaArrowRightLong className=" rotate-[300deg]" />
+         <FaArrowRightLong className=" rotate-[322deg]" />
       </Link>
    );
 };
