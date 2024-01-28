@@ -1,15 +1,19 @@
-import bannerBg from "../../../../../public/images/banner.jpg";
+import bannerBg from "../../../../../public/images/banner.webp";
 import Button from "../../global/button/button";
+import SubHeading from "../../global/subHeading/subHeading";
 
 const Banner = () => {
    return (
       <div
          style={{
             background: `linear-gradient(0deg, rgba(6, 17, 56, 0.7), rgba(6, 17, 56, 0.7)), url(${bannerBg.src})`,
+            backgroundPosition: "center center",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
          }}
          className="flex items-center flex-col justify-center h-[90vh]">
-         <p className="text-primary">YACHT & BOATS</p>
-         <h2 className="text-6xl py-3 font-bold text-white">
+         <SubHeading>YACHT & BOATS</SubHeading>
+         <h2 className="text-h1 py-3 font-bold text-white">
             Bespoke Yacht Charter
          </h2>
          <p className="text-white pb-4">

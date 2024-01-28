@@ -11,6 +11,10 @@ module.exports = {
             primary: "#1E90FF",
             secondary: "#061138",
          },
+         fontSize: {
+            h1: "60px",
+            h2: "30px",
+         },
          backgroundImage: {
             "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
             "gradient-conic":
