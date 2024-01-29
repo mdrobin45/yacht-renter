@@ -22,10 +22,13 @@ const About = () => {
                <SubHeading>SINCE 1880</SubHeading>
                <h2 className="text-h2 font-bold">Enjoy Yachting</h2>
                <p className="text-gray-500">
-                  Lorem ipsum elementum sesue in the aucanion vestibulum aliquam
-                  usto inthe sapien rutrum volutate inthemiss quis the
-                  pellentesque donec velit arcution mosuere blane nestibulum
-                  suam the monte nellen.
+                  Explore serene coastlines, hidden coves, and vibrant marine
+                  life as you navigate the open waters in style. Our expertly
+                  curated selection of yachts and boats caters to every
+                  occasion, from intimate gatherings to extravagant
+                  celebrations. Trust our dedicated team to ensure your voyage
+                  is seamless, leaving you with cherished memories of sun-soaked
+                  decks, salty breezes, and the gentle rhythm of the waves.
                </p>
                <div className="gap-y-3 flex flex-col mt-4">
                   <div className="flex items-center gap-2">

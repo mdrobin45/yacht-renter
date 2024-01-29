@@ -14,10 +14,11 @@ const Banner = () => {
          className="flex items-center flex-col justify-center h-[90vh]">
          <SubHeading>YACHT & BOATS</SubHeading>
          <h2 className="text-h1 py-3 font-bold text-white">
-            Bespoke Yacht Charter
+            Your Maritime Adventure
          </h2>
          <p className="text-white pb-4">
-            The yacht life is a life of luxury and adventure.
+            Embark on a nautical adventure with our premium yacht and boat
+            rental services.
          </p>
          <Button href="#">Discover Now</Button>
       </div>
