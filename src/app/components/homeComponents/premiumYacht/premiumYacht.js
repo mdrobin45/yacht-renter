@@ -13,7 +13,7 @@ const PremiumYacht = () => {
                <h2 className="text-h2 text-white font-bold">Yachts & Boats</h2>
             </Container>
          </div>
-         <div className=" -mt-36">
+         <div className=" -mt-60">
             <YachtSlide />
          </div>
       </>
