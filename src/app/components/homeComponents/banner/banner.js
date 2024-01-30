@@ -1,3 +1,4 @@
+"use client";
 import bannerBg from "../../../../../public/images/banner.webp";
 import Button from "../../global/button/button";
 import SubHeading from "../../global/subHeading/subHeading";

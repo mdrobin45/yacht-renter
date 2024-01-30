@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { CiCircleCheck } from "react-icons/ci";
 import { FiPhone } from "react-icons/fi";
