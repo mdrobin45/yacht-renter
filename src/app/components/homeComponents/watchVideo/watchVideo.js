@@ -1,5 +1,4 @@
 "use client";
-import LottiePlayer from "react-lottie";
 import playButton from "../../../utils/play_button_lottie.json";
 import Container from "../../global/container/container";
 import SubHeading from "../../global/subHeading/subHeading";
@@ -19,14 +18,13 @@ const WatchVideo = () => {
             backgroundAttachment: "fixed",
             backgroundSize: "cover",
          }}
-         className=" py-32">
+         className="py-32">
          <Container>
             <SubHeading className="justify-center">Discover</SubHeading>
             <h2 className="text-4xl text-white text-center font-bold">
                Watch Yacht Video
             </h2>
-
-            <LottiePlayer options={defaultOptions} width={100} height={100} />
+            {/* <LottiePlayer options={defaultOptions} width={100} height={100} /> */}
          </Container>
       </section>
    );
