@@ -9,15 +9,17 @@ import bg from "/public/images/banner.webp";
 const YachtSlide = () => {
    return (
       <>
-         <div className="relative mx-auto my-20 w-[60%]">
-            <Image
-               className="rounded-md"
-               src={bg.src}
-               alt="Thumbnail"
-               width={800}
-               height={600}
-            />
-            <div className="absolute flex items-center justify-between mx-10 left-0 right-0 -bottom-7 shadow border bg-white py-4 px-3 rounded-md">
+         <div className="relative mx-auto mb-20 w-full">
+            <div className="overflow-hidden rounded-md">
+               <Image
+                  className="rounded-md hover:scale-110 transition-all"
+                  src={bg.src}
+                  alt="Thumbnail"
+                  width={800}
+                  height={600}
+               />
+            </div>
+            <div className="absolute flex items-center justify-between mx-10 left-0 right-0 -bottom-12 shadow border bg-white py-4 px-3 rounded-md">
                <div className="">
                   <div>
                      <h3 className="text-secondary font-bold text-2xl">

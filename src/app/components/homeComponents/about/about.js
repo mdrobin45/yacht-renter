@@ -9,9 +9,9 @@ const About = () => {
    return (
       <Container>
          <section className="flex items-center justify-between py-20">
-            <div className="w-2/4">
+            <div className="w-2/4 overflow-hidden rounded-md">
                <Image
-                  className="rounded-md"
+                  className="rounded-md hover:scale-95 transition-all"
                   width={450}
                   height={600}
                   src={aboutThumbnail.src}

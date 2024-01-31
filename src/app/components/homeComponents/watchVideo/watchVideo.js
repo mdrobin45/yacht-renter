@@ -1,15 +1,10 @@
-"use client";
-import playButton from "../../../utils/play_button_lottie.json";
+import Image from "next/image";
 import Container from "../../global/container/container";
 import SubHeading from "../../global/subHeading/subHeading";
+import PlayIcon from "/public/images/play.png";
 import sectionBG from "/public/images/watch_video-bg.jpg";
 
 const WatchVideo = () => {
-   const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: playButton,
-   };
    return (
       <section
          style={{
@@ -24,7 +19,13 @@ const WatchVideo = () => {
             <h2 className="text-4xl text-white text-center font-bold">
                Watch Yacht Video
             </h2>
-            {/* <LottiePlayer options={defaultOptions} width={100} height={100} /> */}
+            <Image
+               className="mx-auto mt-4 animate-pulse"
+               width={100}
+               height={100}
+               src={PlayIcon.src}
+               alt="Play"
+            />
          </Container>
       </section>
    );
