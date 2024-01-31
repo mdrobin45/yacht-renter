@@ -3,6 +3,7 @@ import Activities from "./components/homeComponents/activities/activities";
 import Banner from "./components/homeComponents/banner/banner";
 import PremiumYacht from "./components/homeComponents/premiumYacht/premiumYacht";
 import WatchVideo from "./components/homeComponents/watchVideo/watchVideo";
+import YachtType from "./components/homeComponents/yachtType/yachtType";
 
 const Home = () => {
    return (
@@ -11,6 +12,7 @@ const Home = () => {
          <About />
          <PremiumYacht />
          <Activities />
+         <YachtType />
          <WatchVideo />
       </section>
    );

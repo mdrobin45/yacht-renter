@@ -19,7 +19,7 @@ const YachtSlide = () => {
                   height={600}
                />
             </div>
-            <div className="absolute flex items-center justify-between mx-10 left-0 right-0 -bottom-12 shadow border bg-white py-4 px-3 rounded-md">
+            <div className="absolute drop-shadow-md flex items-center justify-between mx-10 left-0 right-0 -bottom-12 bg-white py-4 px-3 rounded-md">
                <div className="">
                   <div>
                      <h3 className="text-secondary font-bold text-2xl">
