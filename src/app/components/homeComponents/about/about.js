@@ -11,7 +11,7 @@ const About = () => {
          <section className="flex items-center justify-between py-20">
             <div className="w-2/4 overflow-hidden rounded-md">
                <Image
-                  className="rounded-md hover:scale-95 transition-all"
+                  className="rounded-md hover:scale-95 duration-300 transition-all"
                   width={450}
                   height={600}
                   src={aboutThumbnail.src}

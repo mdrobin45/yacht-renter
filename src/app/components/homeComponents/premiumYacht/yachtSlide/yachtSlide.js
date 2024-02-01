@@ -12,7 +12,7 @@ const YachtSlide = () => {
          <div className="relative mx-auto mb-20 w-full">
             <div className="overflow-hidden rounded-md">
                <Image
-                  className="rounded-md hover:scale-110 transition-all"
+                  className="rounded-md hover:scale-105 duration-300 transition-all"
                   src={bg.src}
                   alt="Thumbnail"
                   width={800}
