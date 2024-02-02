@@ -7,11 +7,11 @@ import paraSailingImg from "/public/images/para-sailing.jpg";
 
 const Activities = () => {
    return (
-      <section className="bg-[#F0F8FF] py-32">
+      <section className="bg-[#F0F8FF] py-8 md:py-20 lg:py-32">
          <Container>
             <SubHeading className="justify-center">OUR ACTIVITIES</SubHeading>
             <h2 className="text-h2 text-center font-bold">Water Sports</h2>
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pt-10">
+            <div className="flex flex-col lg:flex-row md:items-center justify-between gap-4 pt-10">
                <div>
                   <Image
                      className="rounded"
@@ -21,7 +21,7 @@ const Activities = () => {
                      height={1100}
                   />
                </div>
-               <div className="bg-white p-6 md:-ml-32 rounded-md">
+               <div className="bg-white p-6 lg:-ml-32 rounded-md">
                   <h2 className="text-h2 font-bold">Para Sailing</h2>
                   <p className="text-gray-500 pt-3">
                      Parasailing is an exhilarating water sport that combines

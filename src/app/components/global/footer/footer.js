@@ -8,7 +8,7 @@ const Footer = () => {
    return (
       <section className="bg-secondary pt-32 pb-7">
          <Container>
-            <div className="flex flex-col md:flex-row md:items-center gap-y-4 md:gap-y-0 justify-between border-blue-950 border-2 rounded-md p-6">
+            <div className="flex flex-col md:flex-row md:items-center gap-y-4 md:gap-x-4 md:gap-y-0 justify-between border-blue-950 border-2 rounded-md p-6">
                <ContactCard
                   icon="phone"
                   heading="Call Now"

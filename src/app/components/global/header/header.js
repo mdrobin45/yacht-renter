@@ -6,7 +6,7 @@ import logoDark from "/public/images/logo-dark.svg";
 
 const Header = () => {
    return (
-      <section className="border-b">
+      <section className="border-b hidden">
          <Container className="border">
             <div className="flex py-6 items-center justify-between">
                <div>

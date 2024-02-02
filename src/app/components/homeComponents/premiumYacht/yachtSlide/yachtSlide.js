@@ -9,7 +9,7 @@ import bg from "/public/images/banner.webp";
 const YachtSlide = () => {
    return (
       <>
-         <div className="relative mx-auto mb-20 w-full">
+         <div className="relative mx-auto mb-20 w-[90%]">
             <div className="overflow-hidden rounded-md">
                <Image
                   className="rounded-md w-full hover:scale-105 duration-300 transition-all"
@@ -19,7 +19,7 @@ const YachtSlide = () => {
                   height={600}
                />
             </div>
-            <div className="absolute drop-shadow-md flex flex-col md:flex-row md:items-center justify-between mx-10 left-0 right-0 -bottom-40 md:-bottom-12 bg-white py-4 px-3 rounded-md">
+            <div className="absolute drop-shadow-md flex flex-col md:flex-row md:items-center justify-between mx-3 md:mx-10 left-0 right-0 -bottom-40 md:-bottom-12 bg-white py-4 px-3 rounded-md">
                <div>
                   <div>
                      <h3 className="text-secondary font-bold text-xl md:text-2xl">
@@ -27,7 +27,7 @@ const YachtSlide = () => {
                      </h3>
                      <div className="flex items-center gap-3"></div>
                   </div>
-                  <div className="flex flex-col md:flex-row md:items-center gap-4 mt-3">
+                  <div className="flex flex-col md:flex-row gap-3 mt-3">
                      <div className="flex items-center gap-1">
                         <LuArrowLeftRight className="text-primary" />
                         <p className="text-gray-500">Length: 18m (60ft)</p>

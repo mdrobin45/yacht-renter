@@ -21,7 +21,7 @@ const PremiumYacht = () => {
                   PREMIUM YACHTS
                </SubHeading>
                <h2 className="text-h2 text-white font-bold">Yachts & Boats</h2>
-               <div className="flex -mt-10 items-center justify-center md:mt-0 md:justify-end gap-3">
+               <div className="flex mt-4 items-center justify-center gap-3">
                   <span
                      onClick={() => swiperRef.current?.slidePrev()}
                      className="bg-primary text-white text-xl flex flex-col items-center justify-center h-10 w-10 cursor-pointer rounded-full">
@@ -35,19 +35,19 @@ const PremiumYacht = () => {
                </div>
             </Container>
          </div>
-         <div className=" -mt-40 mb-32 px-8 md:px-0">
+         <div className=" -mt-40 mb-8 md:mb-20 lg:mb-32 md:px-0">
             <Swiper
-               className="h-[27rem] md:h-[47rem]"
+               className="min-h-[27rem]"
                breakpoints={{
                   640: {
                      slidesPerView: 1,
                   },
-                  768: {
+                  982: {
                      slidesPerView: 2,
                   },
                }}
                centeredSlides={true}
-               spaceBetween={20}
+               spaceBetween={10}
                loop={true}
                pagination={{
                   clickable: true,

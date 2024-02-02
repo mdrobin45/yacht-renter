@@ -18,7 +18,9 @@ const ContactCard = ({ icon, heading, text }) => {
       <div className="flex items-center gap-2">
          <div className="bg-primary rounded-full p-4">{renderIcon()}</div>
          <div>
-            <h2 className="text-xl font-bold text-white">{heading}</h2>
+            <h2 className="md:text-md text-xl font-bold text-white">
+               {heading}
+            </h2>
             <p className="text-gray-300">{text}</p>
          </div>
       </div>

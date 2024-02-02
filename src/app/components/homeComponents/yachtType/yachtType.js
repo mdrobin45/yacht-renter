@@ -10,14 +10,12 @@ const YachtType = () => {
       <>
          <div className="bg-secondary pt-20 pb-52 text-center">
             <Container>
-               <SubHeading className="justify-center">
-                  PREMIUM YACHTS
-               </SubHeading>
-               <h2 className="text-h2 text-white font-bold">Yachts & Boats</h2>
+               <SubHeading className="justify-center">Explore</SubHeading>
+               <h2 className="text-h2 text-white font-bold">Type of Yacht</h2>
             </Container>
          </div>
          <Container>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-20 -mt-32">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20 -mt-32">
                <TypeCard
                   img={yacht1.src}
                   count={1}

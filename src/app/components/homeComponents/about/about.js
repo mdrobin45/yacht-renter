@@ -8,17 +8,17 @@ import aboutThumbnail from "/public/images/about4.jpg";
 const About = () => {
    return (
       <Container>
-         <section className="flex flex-col md:flex-row items-center justify-between py-20">
-            <div className="w-full md:w-2/4 pb-6 md:pb-0 overflow-hidden rounded-md">
+         <section className="flex flex-col lg:flex-row items-center justify-between py-20 gap-x-10">
+            <div className="w-full lg:w-2/4 pb-6 md:pb-0 overflow-hidden rounded-md">
                <Image
-                  className="rounded-md hover:scale-95 duration-300 transition-all"
+                  className="rounded-md w-full lg:w-[80%] pb-3 hover:scale-95 duration-300 transition-all"
                   width={450}
                   height={600}
                   src={aboutThumbnail.src}
                   alt="about"
                />
             </div>
-            <div className="w-full md:w-2/4">
+            <div className="w-full lg:w-2/4">
                <SubHeading>SINCE 1880</SubHeading>
                <h2 className="text-h2 font-bold">Enjoy Yachting</h2>
                <p className="text-gray-500">
