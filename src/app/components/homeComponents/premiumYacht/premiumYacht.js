@@ -37,7 +37,7 @@ const PremiumYacht = () => {
          </div>
          <div className=" -mt-40 mb-32 px-8 md:px-0">
             <Swiper
-               className="h-[400px] md:h-[600px]"
+               className="h-[27rem] md:h-[47rem]"
                breakpoints={{
                   640: {
                      slidesPerView: 1,

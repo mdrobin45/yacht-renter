@@ -30,8 +30,8 @@ const quickLinks = [
 
 const FooterSectionTwo = () => {
    return (
-      <div className="w-2/6">
-         <div className="w-2/4 mx-auto">
+      <div className="md:w-2/6">
+         <div className="md:w-2/4 mx-auto">
             <h2 className="text-2xl font-bold text-white">Quick Links</h2>
             <ul className="flex flex-col gap-y-1 text-white mt-4">
                {quickLinks.map((item, index) => (

@@ -2,19 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "../button/button";
 import Container from "../container/container";
+import logoDark from "/public/images/logo-dark.svg";
 
 const Header = () => {
    return (
-      <section className="border-b hidden md:visible">
+      <section className="border-b">
          <Container className="border">
             <div className="flex py-6 items-center justify-between">
                <div>
-                  <Image
-                     width={150}
-                     height={300}
-                     src="https://duruthemes.com/demo/html/harbour/demo1/img/logo-dark.png"
-                     alt="Logo"
-                  />
+                  <Image width={200} height={300} src={logoDark} alt="Logo" />
                </div>
                <div className="border rounded-full p-4">
                   <nav className="flex gap-x-6 items-center">

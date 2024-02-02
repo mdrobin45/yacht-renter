@@ -2,7 +2,7 @@ import { LuSend } from "react-icons/lu";
 
 const FooterSectionThree = () => {
    return (
-      <div className="w-2/6">
+      <div className="md:w-2/6">
          <h2 className="text-2xl font-bold text-white">Subscribe</h2>
          <p className="text-gray-300">
             To get latest update about our offers, promotions, and discounts
