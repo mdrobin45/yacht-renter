@@ -5,7 +5,7 @@ import Container from "../container/container";
 
 const Header = () => {
    return (
-      <section className="border-b">
+      <section className="border-b hidden md:visible">
          <Container className="border">
             <div className="flex py-6 items-center justify-between">
                <div>

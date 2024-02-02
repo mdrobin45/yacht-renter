@@ -35,9 +35,17 @@ const PremiumYacht = () => {
                </div>
             </Container>
          </div>
-         <div className=" -mt-40 mb-32">
+         <div className=" -mt-40 mb-32 px-8 md:px-0">
             <Swiper
-               slidesPerView={2}
+               className="h-[400px] md:h-[600px]"
+               breakpoints={{
+                  640: {
+                     slidesPerView: 1,
+                  },
+                  768: {
+                     slidesPerView: 2,
+                  },
+               }}
                centeredSlides={true}
                spaceBetween={20}
                loop={true}
